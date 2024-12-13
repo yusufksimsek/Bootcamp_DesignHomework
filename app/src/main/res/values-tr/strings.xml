@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haberler</string>
+    <string name="topAppBarTitle">Flaş Haberler</string>
+    <string name="newsTitle">Bitcoin, Yeniden Artan Kurumsal İlgiyle $100.000\'ı Aştı</string>
+    <string name="button1Title">Beğen</string>
+    <string name="button2Title">Yorum Yap</string>
+    <string name="categoryTitle">Ekonomi</string>
+    <string name="articleCrypto">Kripto</string>
+    <string name="articleDate">13 Aralık 2024</string>
+    <string name="articleNews">Bitcoin, kurumsal ilginin yeniden arttığı ve kripto para düzenlemeleri hakkında iyimserlik ortamının etkisiyle $100.000 sınırını bir kez daha geçti. Önde gelen finansal firmaların kripto varlıklarını artırdığı bildiriliyor, bu da dijital varlıkların uzun vadeli potansiyeline olan güveni işaret ediyor.</string>
+
+</resources>

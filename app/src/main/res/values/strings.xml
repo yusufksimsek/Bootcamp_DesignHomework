@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="topAppBarTitle">Flash News</string>
+    <string name="newsTitle">Bitcoin Surges Above $100,000 Amid Renewed Institutional Interest</string>
+    <string name="button1Title">Like</string>
+    <string name="button2Title">Comment</string>
+    <string name="categoryTitle">Economy</string>
+    <string name="articleCrypto">Crypto</string>
+    <string name="articleDate">December 13, 2024</string>
+    <string name="articleNews">Bitcoin has crossed the $100,000 once again, fueled by a wave of renewed institutional interest and optimism around cryptocurrency regulation. Major financial firms are reportedly increasing their crypto holdings, signaling confidence in the long-term potential of digital assets.</string>
+</resources>
