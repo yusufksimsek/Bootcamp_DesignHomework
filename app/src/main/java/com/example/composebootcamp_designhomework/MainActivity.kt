@@ -74,27 +74,9 @@ fun NewsPage(darkTheme: Boolean = isSystemInDarkTheme()) {
                 titleContentColor = White
             ),
             actions = {
-                IconButton(onClick = { }) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.bookmark_icon),
-                        contentDescription = "",
-                        tint = White
-                    )
-                }
-                IconButton(onClick = { }) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.share_icon),
-                        contentDescription = "",
-                        tint = White
-                    )
-                }
-                IconButton(onClick = { }) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.world_icon),
-                        contentDescription = "",
-                        tint = White
-                    )
-                }
+                ReIcon(id = R.drawable.bookmark_icon)
+                ReIcon(id = R.drawable.share_icon)
+                ReIcon(id = R.drawable.world_icon)
             }
         )
     }) { paddingValues ->
@@ -162,6 +144,17 @@ fun NewsPage(darkTheme: Boolean = isSystemInDarkTheme()) {
                 Article(content = stringResource(id = R.string.articleNews))
             }
         }
+    }
+}
+
+@Composable
+fun ReIcon(id:Int){
+    IconButton(onClick = { }) {
+        Icon(
+            painter = painterResource(id = id),
+            contentDescription = "",
+            tint = White
+        )
     }
 }
 
